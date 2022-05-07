@@ -1,0 +1,39 @@
+{
+    "tiles": [
+    	 "https://a-data.3dbuildings.com/tile/{z}/{x}/{y}.pbf?token=dixw8kmb", 
+         "https://b-data.3dbuildings.com/tile/{z}/{x}/{y}.pbf?token=dixw8kmb",
+         "https://c-data.3dbuildings.com/tile/{z}/{x}/{y}.pbf?token=dixw8kmb", 
+         "https://d-data.3dbuildings.com/tile/{z}/{x}/{y}.pbf?token=dixw8kmb"
+
+         
+    	],
+    "name": "3dbuildings",
+    "format": "pbf",
+    "id": "3dbuildings",
+    "attribution": "<a href=\"https://3dbuildings.com/copyright/\">© 3dbuildings</a>",
+    "description": "3dbuildings Vector Tiles",
+    "minzoom": 0,
+    "maxzoom": 16,
+    "vector_layers": [
+    {
+        "id": "building-cluster",
+        "minzoom": 0,
+        "maxzoom": 7
+    },
+    {
+        "id": "building-point",
+        "minzoom": 8,
+        "maxzoom": 10
+    },
+    {
+        "id": "building-footprint",
+        "minzoom": 11,
+        "maxzoom": 13
+    },
+    {
+        "id": "building",
+        "minzoom": 14,
+        "maxzoom": 16
+    }],
+    "tilejson": "2.0.0"
+}
